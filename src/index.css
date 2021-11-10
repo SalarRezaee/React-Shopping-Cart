@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media(max-width : 380px) {
+    .xs-responsive{
+        flex-direction:  column !important;
+    }
+}
